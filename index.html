@@ -9,10 +9,16 @@
   <title>Portfolio</title>
 </head>
 <body>
+  <!-- Preloader -->
+  <!-- <div class="preloader">
+    <div class="loader">
+    </div>
+  </div> -->
+  <!-- Preloader End -->
   <!--Main Container-->
   <div class="main-cotainer">
     <!--Aside-->
-    <div class="aside">
+    <div class="aside open">
       <div class="logo">
         <a href="#">Akshat</a>
       </div>
@@ -21,37 +27,37 @@
           <span></span>
       </div>
       <!--Nav-->
-      <ul class="nav">
-        <li><a href="#" class="active"><i class="fa fa-home" ></i>Home</a></li>
-        <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-        <li><a href="#"><i class="fa fa-list"></i>Project</a></li>
-        <li><a href="#"><i class="fa fa-briefcase"> </i>Certificate</a></li>
-        <li><a href="#"><i class="fa fa-envelope"></i>Achievements</a></li>
-        <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+      <ul class="nav  ">
+        <li><a href="#home" class="active"><i class="fa fa-home" ></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+        <li><a href="#service"><i class="fa fa-list"></i>Project</a></li>
+        <!-- <li><a href="#certificate"><i class="fa fa-briefcase"> </i>Certificate</a></li> -->
+        <li><a href="#badges"><i class="fa fa-certificate"></i>Certificate</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
       </ul>
     </div>
     <!--Aside End-->
     <!--Main Content-->
     <div class="main-content">
       <!--Home Section-->
-      <section class="home section ">
+      <section class="home section active open" id="home">
         <div class="container">
           <div class="intro">
-            <img src="image/profile.jpg" alt="profile" class="shadow-dark">
+            <img src="image/IMG_20200604_203322.jpg" alt="profile" class="shadow-dark">
             <h1>Akshat Singh</h1>
-            <p>I'm a Data Scientist</p>
+            <p>Web Developer & Designer</p>
             <div class="social-link">
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-instagram"></i></a>
-              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/akshat7497"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/akshat.yashu"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/akshat1singh/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/akshatsingh7497/"><i class="fa fa-linkedin"></i></a>
             </div>
           </div>
         </div>
       </section>
       <!--Home Section End-->
       <!--About Section-->
-      <section class="about section">
+      <section class="about section" id="about">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -64,7 +70,7 @@
               <div class="about-content padd-15">
                 <div class="row">
                   <div class="about-text padd-15">
-                    <h3>I'm Web Developer and <span>Data Scientist</span></h3>
+                    <h3>I'm <span>Web Developer </span>and <span>Web Designer</span></h3>
                     <p>To adopt a career that will allow me to utilize my acquired knowledge and skills to deliver better value to
                     the organization, self and society. I believe in a stimulating, challenging and professional work environment,
                     which fosters team spirit, is crucial for long-term personal and organizational success </p>
@@ -100,8 +106,8 @@
                     </div> 
                     <div class="row">
                       <div class="buttons padd-15">
-                        <a href="#" class="btn">Download CV</a>
-                        <a href="#" class="btn">Hire Me</a>
+                        <a href="https://drive.google.com/file/d/1OwDr8xKe-WyV3yPzcXR_JXfQI5lnRzVq/view?usp=sharing" class="btn">Download CV</a>
+                        <a href="#contact" data-section-index="1" class="btn">Hire Me</a>
                       </div>
                     </div>
                   </div>
@@ -213,7 +219,7 @@
       <!--About Section End-->
 
       <!--Service Section -->
-      <section class="service section">
+      <section class="service section" id="service">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -227,8 +233,9 @@
                 <div class="icon">
                   <i class="fa fa-laptop"></i>
                 </div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <h4>Smart Online Examination System</h4>
+                <p>Integrated platform to perform test and analyze score along with it predicting the college based
+                  upon the previous cutoff of the colleges</p>
               </div>
             </div>
             <!--Service Item End-->
@@ -238,8 +245,9 @@
                 <div class="icon">
                   <i class="fa fa-laptop"></i>
                 </div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <h4>Blood Donation Management System</h4>
+                <p>Platform to view the donor, receiver and nearby hospital for donation of blood, and receive
+                  invitation for the blood donation camp</p>
               </div>
             </div>
             <!--Service Item End-->
@@ -249,8 +257,9 @@
                 <div class="icon">
                   <i class="fa fa-laptop"></i>
                 </div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <h4>Content Management System </h4>
+                <p>Platform to communicate notice and form among company members and  include publishing information,building forms and getting feedback from clients
+                  </p>
               </div>
             </div>
             <!--Service Item End-->
@@ -260,41 +269,315 @@
                 <div class="icon">
                   <i class="fa fa-laptop"></i>
                 </div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <h4>Student Portal with Admin Panel</h4>
+                <p>Providing platform to view & manipulate result, attendance and time table ,also generate report card with marks obtained and certificates obtained by student</p>
               </div>
             </div>
             <!--Service Item End-->
-            <!--Service Item-->
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-laptop"></i>
-                </div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-              </div>
-            </div>
-            <!--Service Item End-->
-            <!--Service Item-->
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-laptop"></i>
-                </div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-              </div>
-            </div>
-            <!--Service Item End-->
+            
           </div>
         </div>
       </section>
       <!--Service Section End-->
-
+      <!-- Certificate Section -->
+      <!-- <section class="certificate section" id="certificate">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Certificate</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="certificate-filter padd-15">
+              <button type="button" class="active" data-filter="all">All</button>
+              <button type="button" data-filter="IT">Information Technology</button>
+              <button type="button" data-filter="management">Management</button>
+              <button type="button" data-filter="extra">extra</button>
+            </div>
+          </div>
+          <div class="row">-->
+            <!-- Certificate Item -->
+            <!-- <div class="certificate-item padd-15" data-category="IT"> 
+              <div class="certificate-item-inner shadow-dark">
+                <div class="certificate-img">
+                  <img src="image/profile.jpg" alt="Certificate">
+                </div>
+                <div class="certificate-info">
+                  <h4>Information Technology</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+              
+            </div> -->
+            <!-- Certificate Item End-->
+            <!-- Certificate Item -->
+            <!-- <div class="certificate-item padd-15" data-category="extra"> 
+              <div class="certificate-item-inner shadow-dark">
+                <div class="certificate-img">
+                  <img src="image/profile.jpg" alt="Certificate">
+                </div>
+                <div class="certificate-info">
+                  <h4>Information Technology</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+              
+            </div> -->
+            <!-- Certificate Item End-->        
+          <!-- </div>
+        </div>  -->
+      <!-- </section> --> 
+      <!-- Certificate Section End-->
+      <!-- Badges Section -->
+      <section class="badges section" id="badges">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Certificate</h2>
+            </div>
+          </div>
+           <div class="row">
+             <!-- Blog Item -->
+             <div class="badges-item padd-15">
+              <div class="badges-item-inner shadow-dark">
+                <div class="badges-img">
+                  <img src="image/oracle-ecertificate(Main)_page-0001.jpg" alt="badges">
+                  <div class="badges-date">
+                    12 May 2020
+                  </div>
+                </div>
+                <div class="badges-info">
+                  <h4 class="bagdes-title">Oracle Cloud Infrastructure Foundations</h4>
+                  <p class="badges-description">
+                    Understanding of basic cloud concepts and its principles of economics,Core OCI Services,pricing, support , operations,Secuirty and compliance
+                  </p>
+                  <p class="badges-tags">Skills: <a href="#">Cloud Infrastructure</a></p>
+                </div>
+              </div>
+            </div>
+          <!-- Blog Item End -->
+                          <!-- Blog Item -->
+                          <div class="badges-item padd-15">
+                            <div class="badges-item-inner shadow-dark">
+                              <div class="badges-img">
+                                <img src="image/Data science math skill _Coursera_page-0001.jpg" alt="badges">
+                                <div class="badges-date">
+                                  17 May 2020
+                                </div>
+                              </div>
+                              <div class="badges-info">
+                                <h4 class="bagdes-title">Data Science Math Skills</h4>
+                                <p class="badges-description">Linear Algebra for Data Science,Calculus for Data Science and Implement a simple neural network from scratch</p>
+                                <p class="badges-tags">Skills:<a href="#"> Statistics </a>, <a href="#">Python</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        <!-- Blog Item End -->
+                        <!-- Blog Item -->
+                        <div class="badges-item padd-15">
+                          <div class="badges-item-inner shadow-dark">
+                            <div class="badges-img">
+                              <img src="image/Database Management System.jpg" alt="badges">
+                              <div class="badges-date">
+                                18 April 2018
+                              </div>
+                            </div>
+                            <div class="badges-info">
+                              <h4 class="bagdes-title">Database Management System</h4>
+                              <p class="badges-description">Introduction to database,Architecture, procedural language, relational data model, usage of DML, DDL, TCS, Normalization, Transaction processing, deadlock handling , storage structures using RAID, data security , distributed databases and recovery methods</p>
+                              <p class="badges-tags">Skills:<a href="#">RDBMS</a>,<a href="#">RAID</a>,<a href="#">Normalization</a></p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Blog Item End -->
+                        <!-- Blog Item -->
+                        <div class="badges-item padd-15">
+                          <div class="badges-item-inner shadow-dark">
+                            <div class="badges-img">
+                              <img src="image/Cognitiveclass PY0101EN Certificate _ Cognitive Class_page-0001.jpg" alt="badges">
+                              <div class="badges-date">
+                                17 June 2020
+                              </div>
+                            </div>
+                            <div class="badges-info">
+                              <h4 class="bagdes-title">IBM Cognitive Class Python</h4>
+                              <p class="badges-description"> Course includes Lists, Tuples, Sets, Dictionaries, Conditions , Branching, Loops, Functions,  Objects,Classes & Pandas</p>
+                              <p class="badges-tags">Skills:<a href="#">Pandas</a>,<a href="#">Python</a></p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Blog Item End -->
+                         <!-- Blog Item -->
+                         <div class="badges-item padd-15">
+                          <div class="badges-item-inner shadow-dark">
+                            <div class="badges-img">
+                              <img src="image/Google Digital Marketing Certification _ Google_page-0001.jpg" alt="badges">
+                              <div class="badges-date">
+                                27 April 2020
+                              </div>
+                            </div>
+                            <div class="badges-info">
+                              <h4 class="bagdes-title">Foundation of Digital Marketing </h4>
+                              <p class="badges-description">Define who you are, what you want to achieve and why,Know your audience,Customer Insight and Get your finances in order.</p>
+                              <p class="badges-tags">Skills:<a href="#"> Digital Marketing </a></p>
+                            </div>
+                          </div>
+                        </div>
+                      <!-- Blog Item End -->
+                                <!-- Blog Item -->
+          <div class="badges-item padd-15">
+            <div class="badges-item-inner shadow-dark">
+              <div class="badges-img">
+                <img src="image/R5iK7HMxJGBgaSbvk_JPMorgan Chase_BdKnxLedeLrFnSnp7_completion_certificate_page-0001.jpg" alt="badges">
+                <div class="badges-date">
+                  22 June 2020
+                </div>
+              </div>
+              <div class="badges-info">
+                <h4 class="bagdes-title">J.P.Morgan Chase & Co. </h4>
+                <p class="badges-description">Establishing Financial Data Feeds,Frontend Web Development and Data Visualization with Persciptive.</p>
+                <p class="badges-tags">Skills:<a href="#"> Financial Data </a>,<a href="#">Technical Communication </a>,<a href="#">Typescript</a></p>
+              </div>
+            </div>
+          </div>
+        <!-- Blog Item End -->
+        <!-- Blog Item -->
+        <div class="badges-item padd-15">
+          <div class="badges-item-inner shadow-dark">
+            <div class="badges-img">
+              <img src="image/Python for Data Science.jpg" alt="badges">
+              <div class="badges-date">
+                20 March 2020
+              </div>
+            </div>
+            <div class="badges-info">
+              <h4 class="bagdes-title">Python for Data Science</h4>
+              <p class="badges-description">Visualize data with Python Write custom functions and data classes in Python, iteration Use Jupyter Notebooks to integrate data analysis, visualization, and documentation Manipulate data arrays and tables using NumPy and Pandas </p>
+              <p class="badges-tags">Skills:<a href="#"> Python </a>,<a href="#">Data Science</a></p>
+            </div>
+          </div>
+        </div>
+      <!-- Blog Item End -->
+          <!-- Blog Item -->
+          <div class="badges-item padd-15">
+            <div class="badges-item-inner shadow-dark">
+              <div class="badges-img">
+                <img src="image/Programming, Data Structures and Algorithms using Python.jpg" alt="badges">
+                <div class="badges-date">
+                  30 September 2018
+                </div>
+              </div>
+              <div class="badges-info">
+                <h4 class="bagdes-title">Programming, Data Structures and Algorithms </h4>
+                <p class="badges-description"> Greedy algorithms, searching, sorting & dynamic programming.Data structures such as stack, queue, hash table, priority queue, binary search tree, graph and string to solve programming challenges.</p>
+                <p class="badges-tags">Skills:<a href="#"> Algorithms </a>,<a href="#">Dynamic Programming</a>,<a href="#">Data Structure</a></p>
+              </div>
+            </div>
+          </div>
+        <!-- Blog Item End -->
+           </div>
+        </div>
+      </section>
+      <!-- Badges Section End -->
+      <!-- Contact Section -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- contact-info-item -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>+91 9582761742</p>
+            </div>
+            <!-- contact-info-item End-->
+            <!-- contact-info-item -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-map-marker"></i></div>
+                <h4>Address</h4>
+                <p>6/960 Sector 6 Vikas Nagar Lucknow Uttar Pradesh India</p>
+            </div>
+            <!-- contact-info-item End-->
+            <!-- contact-info-item -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>akshat7497@gmail.com</p>
+            </div>
+            <!-- contact-info-item End -->
+          </div>
+        </div>
+        <!-- Contact Section End -->
+      <!-- Contact Form -->
+      <div class="row">
+        <form class="contact-form padd-15">
+          <div class="row">
+            <div class="form-item col-6 padd-15">
+              <div class="form-group">
+              <input types="text" class="form-control" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-item col-6 padd-15">
+              <div class="form-group">
+              <input types="text" class="form-control" placeholder="Email">
+              </div>
+            </div>
+          </div>
+           <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+              <input types="text" class="form-control" placeholder="Subject">
+              </div>
+            </div>
+           </div>
+           <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+              <textarea class="form-control" placeholder="Your Message"></textarea>
+              </div>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-12 padd-15">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+           </div>
+        </form>
+      </div>
+      <!-- Contact Form End -->
+    
+      </section>
+      
     </div>
     <!--Main Content End-->
   </div>
   <!--Main Conatiner-->
+  <!--Lightbox-->
+  <div class="lightbox open">
+    <div class="lightbox-content">
+      <div class="lightbox-close">&times;
+      </div>
+      <img src="image/profile.jpg" class="lightbox-img">
+      <div class="lightbox-caption">
+        <div class="caption-text">IT</div>
+        <div class="caption-counter">1 of 6</div>
+      </div>
+    </div>
+    <div class="lightbox-controls">
+      <div class="prev-item"><i class="fa fa-angle-left"></i></div>
+      <div class="next-item"><i class="fa fa-angle-right"></i></div>
+    </div>
+  </div>
+  <!--Lightbox End-->
+<!-- Template Javascript -->
+<script src="js/script.js"></script> 
 </body>
 </html>
