@@ -25,12 +25,12 @@ input,textarea,select{
   font-family: 'Montserrat', sans-serif;
 }
 .section{
-  background-color: #f2f2fc;
+  background-color: #fff;
   min-height: 100vh;
   display: block;
   padding: 0px 30px;
   /* position: fixed; */
-  width: 600px;
+  /* width: 79em; */
   left: 270px;
   top: 0;
   right: 0;
@@ -52,7 +52,7 @@ input,textarea,select{
 }
 .section-title h2{
   font-size:40px;
-  color: #302e4d;
+  color: #00b3b3;
   font-family: 'Rubik',sans-serif;
   font-weight: 700;
   position: relative;
@@ -64,7 +64,7 @@ input,textarea,select{
   position: absolute;
   top: 100%;
   left:0;
-  background-color: #004d40;
+  background-color: #ff6666;
 }
 .section-title h2::after{
   content: '';
@@ -73,7 +73,7 @@ input,textarea,select{
   position: absolute;
   top: 100%;
   left:0;
-  background-color: #004d40;
+  background-color: #ff6666;
   margin-top: 8px;
 }
 
@@ -104,13 +104,13 @@ input,textarea,select{
   box-shadow: 0 0 20px rgba(48,46,77,0.15);
 }
 .btn{
-  background-color: #004d40;
+  background-color: #ff6666;
   font-size:16px;
   font-family: 'Rubik',sans-serif;
   font-weight: 500;
   padding: 12px 35px;
   border-radius: 40px;
-  color: #fff;
+  color: #333300;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   display: inline-block;
@@ -144,7 +144,7 @@ input,textarea,select{
 }
 .aside  .logo a{
   font-size: 40px;
-  color: #302e4d;
+  color: #00b3b3;
   font-family:'Rubik',sans-serif;
   text-decoration: none;
   display: inline-block;
@@ -157,8 +157,8 @@ input,textarea,select{
   content: "";
   height: 20px;
   width: 20px;
-  border-top: 4px solid #004d40;
-  border-left: 4px solid #004d40;
+  border-top: 4px solid #ff6666;
+  border-left: 4px solid #ff6666;
   position: absolute;
   top: 0;
   left: 0;
@@ -167,8 +167,8 @@ input,textarea,select{
   content: "";
   height: 20px;
   width: 20px;
-  border-bottom: 4px solid #004d40;
-  border-right: 4px solid #004d40;
+  border-bottom: 4px solid #ff6666;
+  border-right: 4px solid #ff6666;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -202,7 +202,7 @@ input,textarea,select{
   width: 18px;
   display: inline-block;
   position: relative;
-  background-color: #004d40;
+  background-color: #ff6666;
 }
 .aside .nav-toggler span::before{
   content: "";
@@ -211,7 +211,7 @@ input,textarea,select{
   position: absolute;
  top: -6px;
  left: 0;
- background-color: #004d40;
+ background-color: #ff6666;
 }
 .aside .nav-toggler span::after{
   content: "";
@@ -220,7 +220,7 @@ input,textarea,select{
   position: absolute;
  top: 6px;
  left: 0;
- background-color: #004d40;
+ background-color: #ff6666;
 }
 .aside .nav{
   margin: 80px 0;
@@ -234,7 +234,7 @@ input,textarea,select{
 .aside .nav li a{
   font-size: 16px;
   font-weight: 600;
-  color: #302e4d;
+  color: #00b3b3;
   text-decoration: none;
   line-height: 45px;
   display: block;
@@ -247,7 +247,7 @@ input,textarea,select{
   padding-left: 5px;
 }
 .aside .nav li a.active,.aside .nav li a:hover{
-  color: #004d40;
+  color: #ff6666;
 }
 .aside .nav li a  .fa{
   margin-right: 10px;
@@ -273,7 +273,7 @@ input,textarea,select{
 }
 .home .intro h1{
   font-size: 30px;
-  color: #302e4d;
+  color: #00b3b3;
   font-family: 'Rubik',sans-serif;
   font-weight: 700;
   margin: 20px 0 5px;
@@ -292,7 +292,7 @@ input,textarea,select{
  height: 35px;
  width: 35px;
  display: inline-block;
- background-color: #004d40;
+ background-color: #ff6666;
  text-align: center;
  line-height: 35px;
  color: #ffffff;
@@ -320,13 +320,13 @@ max-width: 100%;
 font-size: 24px;
 margin-bottom: 15px;
 font-weight: 700;
-color:#302e4d ;
+color:#00b3b3 ;
 }
 .about .about-content .about-text h3 span {
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 700;
-  color:#004d40 ;
+  color:#ff6666 ;
   }
 .about .about-content .about-text p{
   font-size: 16px;
@@ -350,7 +350,7 @@ color:#302e4d ;
   font-weight: 600;
   padding:10px 0;
   font-size: 16px;
-  color: #302e4d;
+  color: #00b3b3;
   border-bottom:1px solid #e8dfec;
   margin:0;
 }
@@ -383,7 +383,7 @@ display: inline-table;
   line-height: 20px;
   font-weight: 600;
   font-size: 16px;
-  color:#302e4d;
+  color:#00b3b3;
   text-transform: capitalize;
   }
 .about .about-content .skills .skill-item .progress{
@@ -399,7 +399,7 @@ display: inline-table;
     left: 0;
     top: 0;
     height: 100%;
-    background-color: #004d40;
+    background-color: #ff6666;
     border-radius: 4px;
   }
   .about .about-content .skills .skill-item .skill-percent{
@@ -427,7 +427,7 @@ display: inline-table;
   font-size: 24px;
   margin-bottom: 30px;
   font-weight: 700;
-  color: #302e4d;
+  color: #00b3b3;
 }
 .about .about-content .timeline-box{
   -ms-flex:0 0 100%;
@@ -457,7 +457,7 @@ display: inline-table;
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #004d40;
+  background-color: #ff6666;
 }
 .about .about-content .timeline .circle-dot{
   position: absolute;
@@ -465,7 +465,7 @@ display: inline-table;
   top: 0px;
   height: 15px;
   width: 15px;
-  background-color: #004d40;
+  background-color: #ff6666;
   border-radius: 100%;
   left: 0px;
 
@@ -490,7 +490,7 @@ display: inline-table;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: capitalize;
-  color: #302e4d;
+  color: #00b3b3;
 }
 .about .about-content .timeline .timeline-text{
   font-size: 16px;
@@ -500,13 +500,13 @@ display: inline-table;
   /* padding-bottom: 20px; */
 }
 .about .about-content .timeline .timeline-text span{
- color: #004d40;
+ color: #ff6666;
 }
 .service .container{
   padding-bottom: 40px;
 }
 .service .service-item{
-  /* background-color: #004d40; */
+  /* background-color: #ff6666; */
   -ms-flex:0 0 33.33% ;
   flex: 0 0 33.33%;
   max-width: 33.33%;
@@ -540,24 +540,24 @@ transition: all 0.3s ease;
 .service .service-item .service-item-inner .icon .fa{
   font-size: 40px;
   line-height: 60px;
-  color: #004d40;
+  color: #ff6666;
 -webkit-transition:all 0.3s ease ;
 transition: all 0.3s ease; 
 
 }
 .service .service-item .service-item-inner:hover .icon{
-  background-color: #004d40;
+  background-color: #ff6666;
 
 }
 .service .service-item .service-item-inner:hover .icon .fa{
   font-size: 25px;
- color: #fff;
+ color: #333300;
  
 } 
 .service .service-item .service-item-inner h4{
   font-size: 18px;
   margin-bottom: 15px;
-  color:#302e4d;
+  color:#00b3b3;
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -569,7 +569,7 @@ transition: all 0.3s ease;
 }
 /*Certificate Section*/
 .certificate .certificate-filter{
-  /* background-color: #004d40; */
+  /* background-color: #ff6666; */
   -ms-flex:0 0 100%;
   flex:0 0 100% ;
   max-width: 100%;
@@ -586,7 +586,7 @@ transition: all 0.3s ease;
   font-weight: 700;
   text-transform: capitalize;
   margin: 0 10px;
-  color: #302e4d;
+  color: #00b3b3;
   cursor: pointer;
   border-bottom: 2px solid transparent;
   white-space: nowrap;
@@ -596,11 +596,11 @@ transition: all 0.3s ease;
 }
 
 .certificate .certificate-filter button.active{
-  color: #004d40;
-  border-color: #004d40;
+  color: #ff6666;
+  border-color: #ff6666;
 }
 .certificate .certificate-item{
-  /* background-color: #004d40; */
+  /* background-color: #ff6666; */
   flex: 0 0 33%;
   max-width: 33%;
   margin-bottom: 30px;
@@ -688,7 +688,7 @@ opacity: 0;
 }
 .certificate .certificate-item .certificate-info .icon .fa{
   line-height: 40px;
-  color: #004d40;
+  color: #ff6666;
 }
 .certificate .certificate-item-inner:hover .certificate-info .icon{
   opacity: 1;
@@ -755,7 +755,7 @@ opacity: 0;
   border-radius: 100%;
   font-size: 32px;
   text-align: right;
-  color: #ffffff;
+  color: #ffffe6;
   line-height: 40px;
 }
 .lightbox .lightbox-content .lightbox-caption{
@@ -801,14 +801,14 @@ opacity: 0;
 .lightbox .lightbox-controls .prev-item .fa,
 .lightbox .lightbox-controls .next-item .fa{
   font-size: 32px;
-  color: #004d40;
+  color: #ff6666;
 }
 /* Badges section */
 .badges .container{
   padding-bottom: 40px;
 }
 .badges .badges-item{
-  /* background-color: #004d40; */
+  /* background-color: #ff6666; */
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 30px;
@@ -819,7 +819,7 @@ opacity: 0;
   border: 1px solid #d4d4e3;
 } 
 .badges .badges-item-inner .badges-img .badges-date{
-  background-color: #004d40;
+  background-color: #ff6666;
   position: absolute;
   padding: 4px 10px;
   border-radius: 5px;
@@ -850,7 +850,7 @@ badges .badges-item-inner .badges-info{
 badges .badges-item-inner .badges-info .badges-title{
   font-size: 18px;
   font-weight: 700;
-  color: #302e4d;
+  color: #00b3b3;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
@@ -872,7 +872,7 @@ badges .badges-item-inner .badges-info .badges-title{
 .badges .badges-item-inner .badges-info .badges-tags a{
   text-decoration: none;
   font-weight: 600;
-  color: #004d40;
+  color: #ff6666;
 }
 /* Contact Section */
 .contact .contact-info-item{
@@ -887,12 +887,12 @@ badges .badges-item-inner .badges-info .badges-title{
 }
 .contact .contact-info-item .icon .fa{
   font-size: 40px;
-  color: #004d40;
+  color: #ff6666;
 }
 .contact .contact-info-item h4{
 font-size: 18px;
 font-weight: 700;
-color: #302e4d;
+color: #00b3b3;
 text-transform: capitalize;
 margin: 15px 0 5px;
 }
@@ -904,7 +904,7 @@ margin: 15px 0 5px;
   font-weight: 600  ;
 }
 .contact .contact-form{
-  /* background-color: #004d40; */
+  /* background-color: #ff6666; */
   -ms-flex:0 0 100% ;
   flex: 0 0 100%;
   max-width: 0 0 100%;
